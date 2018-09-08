@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <link rel="stylesheet" href="n1.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	* {
+    box-sizing: border-box;
+	}
+
+	.column {
+		float: left;
+		width: 50%;
+		padding: 10px;
+		height: 300px; /* Should be removed. Only for demonstration */
+	}
+
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	.RRR {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+</style>
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron" style= "background-color: #bcbcbc;">
+  <div id="contact-info">
+		<div class="container">          
+		<center><img src="11025757_789423071148221_6735544901422631997_n.jpg" class="img-circle" alt="Cinque Terre" width="236" height="236"></center> 
+		</div>
+		<h1 class="fn RRR">  </h1>
+		<center><h1 class="fn ">Rouel Shafi Chaudhary</h1> </center>
+			<p>
+				<center>Cell: <span class="tel">03224063234</span><br /><center>
+                <center>Email: <a class="email" href="mailto:l164163@lhr.nu.edu.pk">l164163@lhr.nu.edu.pk</a><center>
+            </p>
+   </div>
+</div>
+
+<br>        
+        <dl>
+            <br>
+            <center><h2 style = "color: #f2f2f2;">EDUCATION</h2></center>
+            <dl>
+                <center><h2 style = "color: #f2f2f2;">National University of Computer & Emerging Sciences (FAST-NU)</h2></center>
+            </dl>
+            <br>
+			<div class="row">
+				<div class="column" style="background-color:#aaa;">
+				<h2><strong><center>Work Experience</center></strong></h2>
+				<dl>
+					<li>PAC-MAN GAME  							1st Semester/2016
+					<li>A game developed using BGI graphics in C++</li></li>
+					<br>
+                    <li>PAINT BRUSH								2nd Semester/2017
+					<br>
+					<li>A windows application developed using BGI graphics in C++</li></li>
+					<br>
+                    <li>BRICK BREAKER							3rd Semester/2017
+					<br>
+					<li>A game developed using basic concepts of Assembly Language</li></li>
+					<br>
+					<li>ONLINE TICKET BOOKING SYSTEM  					4th Semester/2018
+					<br>
+					<li>A DBMS integrated with a website which customers can book tickets for Airline flights, Railway trips, Movies along with Restaurant Table.</li></li>
+					<br>
+					</dl>
+				</div>
+				<div class="column" style="background-color:#bbb;">
+				<center><h2><Strong>Skills and Achievements</Strong></h2></center>
+				<br>
+						<li>FLL  First Lego League </li>
+						<br>
+						<li>C++, Assembly Language, Python, HTML/CSS and SQL</li>
+						<br>
+						<li>Intermediate skills in Unreal Engine and Unity</li>
+				</div>
+			</div>
+   
+        </dl>
+  
+<div class="container-fluid bg-3 ">    
+  <h2 style = "color: #f2f2f2;">My Work</h2><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <h2 style = "color: #f2f2f2;">PAC-MAN</h2>
+      <img src="pm.jpg" class="img-responsive" style="width:300px; height:300px" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <h2 style = "color: #f2f2f2;">Paint Brush</h2>
+      <img src="asd.jpg" class="img-responsive" style="width:300px; height:300px" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <h2 style = "color: #f2f2f2;">Bricks Breaker</h2>
+      <img src="bb.jpg" class="img-responsive" style="width:300px; height:300px" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <h2 style = "color: #f2f2f2;">Online Booking System</h2>
+      <img src="asdd.jpg" class="img-responsive" style="width:300px; height:300px" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<footer class="container-fluid text-center">
+</footer>
+
+</body>
+</html>
