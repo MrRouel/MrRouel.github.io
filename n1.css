@@ -1,0 +1,60 @@
+
+body {
+    background-image: url("wallhaven-627272.png");
+    background-color: #cccccc;
+}
+a {
+  text-decoration: none;
+}
+.fa {
+  font-size: 1.2em;
+  line-height: 2em;
+  background: white;
+  border-radius: 2em;
+  height: 2em;
+  width: 2em;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+  text-align: center;
+  color: #C43832;
+}
+.phone-number {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: #C43832;
+  border-radius: 34px;
+  padding: 1em;
+  position: relative;
+  padding-left: 0em;
+  color: white;
+  display: inline-block;
+  width: 135px;
+}
+.phone-number--below {
+  display: block;
+  text-align: left;
+  padding-left: 0.8em;
+}
+.phone-number:hover {
+  background: #1d71b8;
+}
+
+#tat{
+margin-left: 400px;
+}
+
+#hide
+{
+border : none;
+background-color: rgb(196, 56, 50);
+}
+
+#hide:hover
+{
+background-color: #1d71b8;
+}
